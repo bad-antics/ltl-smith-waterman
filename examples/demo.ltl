@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_smith_waterman
+
+import std::io
+use ltl_smith_waterman as lib
+
+fn main() {
+    io::println("ltl_smith_waterman demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
