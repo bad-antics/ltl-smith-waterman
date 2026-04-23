@@ -1,0 +1,15 @@
+// ltl-smith-waterman/main.ltl
+//
+// Smith-Waterman local alignment (affine gap).
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-smith-waterman v0.1.0")
+    io::println("Smith-Waterman local alignment (affine gap).")
+    0
+}
